@@ -1,2 +1,0 @@
-# Logisbot
-Logisbot
