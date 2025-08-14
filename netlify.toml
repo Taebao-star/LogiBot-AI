@@ -1,0 +1,11 @@
+[functions]
+  directory = "netlify/functions"
+
+# SPA 라우팅(선택): 이미 _redirects 쓰면 아래 블록은 생략하세요.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+  [build.environment]
+  NODE_VERSION = "18"
